@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import {ToDoApp} from "../components/index";
 import './App.css';
 
 function App() {
