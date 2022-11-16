@@ -68,6 +68,9 @@ const ToDoList = () => {
             setCompleteList(tmpCompletedList)
             setList(tmpList)
         })
+        .catch((err) => {
+            console.log(err.status);
+        })
     };
 
     useEffect(() => {handleGetList()}, []);
